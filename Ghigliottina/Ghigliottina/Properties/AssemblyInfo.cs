@@ -21,7 +21,7 @@ using System.Resources;
 [assembly: ComVisible(false)]
 
 // Se il progetto viene esposto a COM, il seguente GUID verrà utilizzato come ID della libreria dei tipi
-[assembly: Guid("80cde4ab-01c3-4ce4-831b-c1397cbbd0a2")]
+[assembly: Guid("6439839a-84db-4cf4-97ca-b09cdf2ff971")]
 
 // Le informazioni sulla versione di un assembly sono costituite dai quattro valori seguenti:
 //

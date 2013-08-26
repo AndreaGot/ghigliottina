@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="it-IT"/>
-  <App xmlns="" ProductID="{40f1769c-9b07-4673-bcb4-e444eae65915}" Title="Ghigliottina" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Ghigliottina author" Description="Sample description" Publisher="Ghigliottina" PublisherID="{2821f5b5-a829-4ee0-860d-4d67d77f223a}">
+  <App xmlns="" ProductID="{a31599c4-b8ef-40dc-bdc0-0ff99e5eaf7c}" Title="Ghigliottina" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Ghigliottina author" Description="Sample description" Publisher="Ghigliottina" PublisherID="{6b32f0db-7771-49cf-b29d-3de97c138d25}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING"/>
