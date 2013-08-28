@@ -41,12 +41,19 @@
 
         <!--TitlePanel contiene il nome dell'applicazione e il titolo della pagina-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="APPLICAZIONE" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
-            <TextBlock Text="nome pagina" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Text="AndreaGot" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+            <TextBlock Text="La Ghigliottina" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - inserire ulteriore contenuto qui-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="347*"/>
+                <RowDefinition Height="260*"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="btnInizia" Content="Informazioni " HorizontalAlignment="Left" Height="148" Margin="-14,316,-12,0" VerticalAlignment="Top" Width="482" Click="Button_Click" FontSize="35" FontFamily="Segoe WP SemiLight" BorderThickness="2" Grid.RowSpan="2"/>
+            <Button x:Name="btnGioca" Content="GIOCA" HorizontalAlignment="Left" Height="148" Margin="-14,10,-12,0" VerticalAlignment="Top" Width="482" Click="Gioca" FontSize="45" FontFamily="Segoe WP SemiLight" BorderThickness="2" Background="#FF007ACC"/>
+            <Button x:Name="btnInfo" Content="Istruzioni" HorizontalAlignment="Left" Height="148" Margin="-14,163,-12,0" VerticalAlignment="Top" Width="482" Click="Info" FontSize="35" FontFamily="Segoe WP SemiLight" BorderThickness="2"/>
 
         </Grid>
 
