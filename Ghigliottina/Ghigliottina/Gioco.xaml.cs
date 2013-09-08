@@ -234,7 +234,8 @@ namespace Ghigliottina
 
         private void button10_Click(object sender, RoutedEventArgs e)
         {
-            if(risposte[0] == textBox.Text)
+
+            if(risposte[0].ToUpper() == (textBox.Text).ToUpper())
                 NavigationService.Navigate(new Uri("/Vittoria.xaml", UriKind.Relative));
             else
                 NavigationService.Navigate(new Uri("/Sconfitta.xaml", UriKind.Relative));
