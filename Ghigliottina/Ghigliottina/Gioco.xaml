@@ -10,236 +10,236 @@
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
     shell:SystemTray.IsVisible="True">
-	<phone:PhoneApplicationPage.Resources>
-		<Storyboard x:Name="EntrataRiga1">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button">
-				<EasingDoubleKeyFrame KeyTime="0" Value="-209.02"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1.557"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button1">
-				<EasingDoubleKeyFrame KeyTime="0" Value="210.513"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1.427"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="button">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1.493"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="button1">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1.493"/>
-			</DoubleAnimationUsingKeyFrames>
-			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="button1">
-				<DiscreteObjectKeyFrame KeyTime="0">
-					<DiscreteObjectKeyFrame.Value>
-						<Thickness>0,1,-49,659</Thickness>
-					</DiscreteObjectKeyFrame.Value>
-				</DiscreteObjectKeyFrame>
-				<DiscreteObjectKeyFrame KeyTime="0:0:1">
-					<DiscreteObjectKeyFrame.Value>
-						<Thickness>0,0,-47,659</Thickness>
-					</DiscreteObjectKeyFrame.Value>
-				</DiscreteObjectKeyFrame>
-			</ObjectAnimationUsingKeyFrames>
-			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="button">
-				<DiscreteObjectKeyFrame KeyTime="0">
-					<DiscreteObjectKeyFrame.Value>
-						<Thickness>-49,1,0,659</Thickness>
-					</DiscreteObjectKeyFrame.Value>
-				</DiscreteObjectKeyFrame>
-				<DiscreteObjectKeyFrame KeyTime="0:0:1">
-					<DiscreteObjectKeyFrame.Value>
-						<Thickness>-49,0,0,659</Thickness>
-					</DiscreteObjectKeyFrame.Value>
-				</DiscreteObjectKeyFrame>
-			</ObjectAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="EntrataRiga2">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button2">
-				<EasingDoubleKeyFrame KeyTime="0" Value="-209.02"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button3">
-				<EasingDoubleKeyFrame KeyTime="0" Value="209.02"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="EntrataRiga3">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button4">
-				<EasingDoubleKeyFrame KeyTime="0" Value="-209.02"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button5">
-				<EasingDoubleKeyFrame KeyTime="0" Value="209.02"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="EntrataRiga4">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button6">
-				<EasingDoubleKeyFrame KeyTime="0" Value="209.02"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button7">
-				<EasingDoubleKeyFrame KeyTime="0" Value="-209.02"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="EntrataRiga5">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button8">
-				<EasingDoubleKeyFrame KeyTime="0" Value="-209.02"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button9">
-				<EasingDoubleKeyFrame KeyTime="0" Value="209.02"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="SalitaRIsposta">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="button10">
-				<EasingDoubleKeyFrame KeyTime="0" Value="209"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="textBox">
-				<EasingDoubleKeyFrame KeyTime="0" Value="209"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="Esci1sx">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button">
-				<EasingDoubleKeyFrame KeyTime="0" Value="1"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="-209.02"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="Esci1dx">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button1">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="209.02"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="Esci2sx">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button2">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="-209.02"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="Esci2dx">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button3">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="209.02"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="Esci3sx">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button4">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="-209.02"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="Esci3dx">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button5">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="209.02"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="Esci4sx">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button7">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="-209.02"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="Esci4dx">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button6">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="209.02"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="Esci5sx">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button8">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="-209.02"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Name="Esci5dx">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button9">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="209.02"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-	</phone:PhoneApplicationPage.Resources>
+    <phone:PhoneApplicationPage.Resources>
+        <Storyboard x:Name="EntrataRiga1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-209.02"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1.557"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="210.513"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1.427"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="button">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1.493"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="button1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1.493"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="button1">
+                <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Thickness>0,1,-49,659</Thickness>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Thickness>0,0,-47,659</Thickness>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="button">
+                <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Thickness>-49,1,0,659</Thickness>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Thickness>-49,0,0,659</Thickness>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="EntrataRiga2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button2">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-209.02"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="209.02"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="EntrataRiga3">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-209.02"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button5">
+                <EasingDoubleKeyFrame KeyTime="0" Value="209.02"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="EntrataRiga4">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button6">
+                <EasingDoubleKeyFrame KeyTime="0" Value="209.02"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button7">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-209.02"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="EntrataRiga5">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button8">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-209.02"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button9">
+                <EasingDoubleKeyFrame KeyTime="0" Value="209.02"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="SalitaRIsposta">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="button10">
+                <EasingDoubleKeyFrame KeyTime="0" Value="209"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="textBox">
+                <EasingDoubleKeyFrame KeyTime="0" Value="209"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Esci1sx">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-209.02"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Esci1dx">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="209.02"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Esci2sx">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button2">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-209.02"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Esci2dx">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="209.02"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Esci3sx">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-209.02"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Esci3dx">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button5">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="209.02"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Esci4sx">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button7">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-209.02"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Esci4dx">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button6">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="209.02"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Esci5sx">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button8">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-209.02"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Esci5dx">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="button9">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="209.02"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </phone:PhoneApplicationPage.Resources>
 
-	<phone:PhoneApplicationPage.FontFamily>
-		<StaticResource ResourceKey="PhoneFontFamilyNormal"/>
-	</phone:PhoneApplicationPage.FontFamily>
-	<phone:PhoneApplicationPage.FontSize>
-		<StaticResource ResourceKey="PhoneFontSizeNormal"/>
-	</phone:PhoneApplicationPage.FontSize>
-	<phone:PhoneApplicationPage.Foreground>
-		<StaticResource ResourceKey="PhoneForegroundBrush"/>
-	</phone:PhoneApplicationPage.Foreground>
-<!--LayoutRoot è la griglia radice in cui viene inserito tutto il contenuto della pagina-->
-	<!--LayoutRoot è la griglia radice in cui viene inserito tutto il contenuto della pagina-->
-	<!--LayoutRoot è la griglia radice in cui viene inserito tutto il contenuto della pagina-->
-	<Grid x:Name="LayoutRoot" Background="Transparent">
-		<!--ContentPanel - inserire ulteriore contenuto qui-->
-		<Button x:Name="button10" Content="Procedi" HorizontalAlignment="Left" Height="91" Margin="309,565,0,0" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.999,0.454" Background="#FF007ACC" FontFamily="Segoe WP SemiLight" FontSize="30" Click="button10_Click">
-			<Button.RenderTransform>
-				<CompositeTransform/>
-			</Button.RenderTransform>
-		</Button>
-		<TextBox x:Name="textBox" HorizontalAlignment="Left" Height="91" Margin="10,565,0,0" TextWrapping="Wrap" Text="Risposta" VerticalAlignment="Top" Width="299" RenderTransformOrigin="0.5,0.5">
-			<TextBox.RenderTransform>
-				<CompositeTransform/>
-			</TextBox.RenderTransform>
-		</TextBox>
-		<Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="108" Margin="-49,1,0,659" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5">
-			<Button.RenderTransform>
-				<CompositeTransform/>
-			</Button.RenderTransform>
-		</Button>
-		<Button x:Name="button1" Content="Button" HorizontalAlignment="Right" Height="108" Margin="0,1,-47,659" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5">
-			<Button.RenderTransform>
-				<CompositeTransform/>
-			</Button.RenderTransform>
-		</Button>
-		<Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Height="108" Margin="-49,109,0,551" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5">
-			<Button.RenderTransform>
-				<CompositeTransform/>
-			</Button.RenderTransform>
-		</Button>
-		<Button x:Name="button3" Content="Button" HorizontalAlignment="Left" Height="108" Margin="239,109,-47,551" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5">
-			<Button.RenderTransform>
-				<CompositeTransform/>
-			</Button.RenderTransform>
-		</Button>
-		<Button x:Name="button4" Content="Button" HorizontalAlignment="Left" Height="108" Margin="-49,217,0,443" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5">
-			<Button.RenderTransform>
-				<CompositeTransform/>
-			</Button.RenderTransform>
-		</Button>
-		<Button x:Name="button5" Content="Button" HorizontalAlignment="Left" Height="108" Margin="239,217,-47,443" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5">
-			<Button.RenderTransform>
-				<CompositeTransform/>
-			</Button.RenderTransform>
-		</Button>
-		<Button x:Name="button7" Content="Button" HorizontalAlignment="Left" Height="108" Margin="-49,325,0,335" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5">
-			<Button.RenderTransform>
-				<CompositeTransform/>
-			</Button.RenderTransform>
-		</Button>
-		<Button x:Name="button6" Content="Button" HorizontalAlignment="Left" Height="108" Margin="239,325,-47,335" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5">
-			<Button.RenderTransform>
-				<CompositeTransform/>
-			</Button.RenderTransform>
-		</Button>
-		<Button x:Name="button8" Content="Button" HorizontalAlignment="Right" Height="108" Margin="-49,433,241,227" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5">
-			<Button.RenderTransform>
-				<CompositeTransform/>
-			</Button.RenderTransform>
-		</Button>
-		<Button x:Name="button9" Content="Button" HorizontalAlignment="Left" Height="108" Margin="239,433,-47,227" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5">
-			<Button.RenderTransform>
-				<CompositeTransform/>
-			</Button.RenderTransform>
-		</Button>
+    <phone:PhoneApplicationPage.FontFamily>
+        <StaticResource ResourceKey="PhoneFontFamilyNormal"/>
+    </phone:PhoneApplicationPage.FontFamily>
+    <phone:PhoneApplicationPage.FontSize>
+        <StaticResource ResourceKey="PhoneFontSizeNormal"/>
+    </phone:PhoneApplicationPage.FontSize>
+    <phone:PhoneApplicationPage.Foreground>
+        <StaticResource ResourceKey="PhoneForegroundBrush"/>
+    </phone:PhoneApplicationPage.Foreground>
+    <!--LayoutRoot è la griglia radice in cui viene inserito tutto il contenuto della pagina-->
+    <!--LayoutRoot è la griglia radice in cui viene inserito tutto il contenuto della pagina-->
+    <!--LayoutRoot è la griglia radice in cui viene inserito tutto il contenuto della pagina-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--ContentPanel - inserire ulteriore contenuto qui-->
+        <Button x:Name="button10" Content="Procedi" HorizontalAlignment="Left" Height="91" Margin="309,919,0,-242" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.999,0.454" Background="#FF007ACC" FontFamily="Segoe WP SemiLight" FontSize="30" Click="button10_Click">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="91" Margin="10,919,0,-242" TextWrapping="Wrap" Text="Risposta" VerticalAlignment="Top" Width="299" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <CompositeTransform/>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Right" Height="108" Margin="-49,97,241,563" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5" Click="button_Click">
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="-209.02"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Right" Height="108" Margin="0,97,-47,563" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5" Click="button1_Click">
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="209.02"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Height="108" Margin="-49,205,0,455" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5" Click="button2_Click">
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="-209.02"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="button3" Content="Button" HorizontalAlignment="Left" Height="108" Margin="239,205,-47,455" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5" Click="button3_Click">
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="209.02"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="button4" Content="Button" HorizontalAlignment="Left" Height="108" Margin="-49,313,0,347" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5" Click="button4_Click">
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="-209.02"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="button5" Content="Button" HorizontalAlignment="Left" Height="108" Margin="239,313,-47,347" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5" Click="button5_Click">
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="209.02"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="button7" Content="Button" HorizontalAlignment="Left" Height="108" Margin="-49,421,0,239" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5" Click="button7_Click">
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="-209.02"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="button6" Content="Button" HorizontalAlignment="Left" Height="108" Margin="239,421,-47,239" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5" Click="button6_Click">
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="209.02"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="button8" Content="Button" HorizontalAlignment="Right" Height="108" Margin="-49,529,241,131" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5" Click="button8_Click">
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="-209.02"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="button9" Content="Button" HorizontalAlignment="Left" Height="108" Margin="239,529,-47,131" Width="288" FontFamily="Segoe WP SemiLight" FontSize="30" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="209.02"/>
+            </Button.RenderTransform>
+        </Button>
 
-	</Grid>
+    </Grid>
 
 </phone:PhoneApplicationPage>
