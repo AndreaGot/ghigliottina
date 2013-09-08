@@ -16,7 +16,7 @@ namespace Ghigliottina
 
         string[,] giuste = new string[1, 5] {{ "giusto", "giusto", "giusto", "giusto", "giusto" }};
         string[,] errate = new string[1, 5] {{ "sbagliato", "sbagliato", "sbagliato", "sbagliato", "sbagliato" }};
-
+        string[] risposte = new string[1] {"giusto"};
         int[] risp = new int[5];
 
         public Gioco()
@@ -108,10 +108,7 @@ namespace Ghigliottina
             EntrataRiga1.Begin();
         }
 
-        private void button10_Click(object sender, RoutedEventArgs e)
-        {
 
-        }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
@@ -184,17 +181,17 @@ namespace Ghigliottina
             button4_Click(sender, e);
         }
 
-        private void button7_Click(object sender, RoutedEventArgs e)
+        private void button6_Click(object sender, RoutedEventArgs e)
         {
             if (risp[3] % 2 == 1)
             {
                 //evidenzia di verde
-                Esci4dx.Begin();
+                Esci4sx.Begin();
             }
             else
             {
                 //evidenzia di rosso
-                Esci4sx.Begin();
+                Esci4dx.Begin();
             }
 
             button8.IsEnabled = true;
@@ -203,10 +200,11 @@ namespace Ghigliottina
             EntrataRiga5.Begin();
         }
 
-        private void button6_Click(object sender, RoutedEventArgs e)
+        private void button7_Click(object sender, RoutedEventArgs e)
         {
-            button5_Click(sender, e);
+            button6_Click(sender, e);
         }
+
 
         private void button8_Click(object sender, RoutedEventArgs e)
         {
@@ -222,7 +220,31 @@ namespace Ghigliottina
             }
 
             SalitaRIsposta.Begin();
+
+            Titolo.Text = "La tua risposta";   
         }
 
+        private void button9_Click(object sender, RoutedEventArgs e)
+        {
+            button8_Click(sender, e);
+        }
+
+
+
+
+        private void button10_Click(object sender, RoutedEventArgs e)
+        {
+            if(risposte[0] == textBox.Text)
+                NavigationService.Navigate(new Uri("/Vittoria.xaml", UriKind.Relative));
+            else
+                NavigationService.Navigate(new Uri("/Sconfitta.xaml", UriKind.Relative));
+
+
+        }
+
+        private void Cancella(object sender, RoutedEventArgs e)
+        {
+            textBox.Text = "";
+        }
     }
 }
