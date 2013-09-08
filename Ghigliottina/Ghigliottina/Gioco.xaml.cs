@@ -12,14 +12,22 @@ namespace Ghigliottina
 {
     public partial class Gioco : PhoneApplicationPage
     {
+
+        string[,] giuste = new string[1, 5];
+        string[,] errate = new string[1, 5];
+
+        string[] risp = new string[5];
+
         public Gioco()
         {
             InitializeComponent();
-            EntrataRiga1.Begin();
-            EntratRiga2.Begin();
-            EntrataRiga3.Begin();
-            EntrataRiga4.Begin();
-            EntrataRiga5.Begin();
+           
+
+        }
+
+        private void button10_Click(object sender, RoutedEventArgs e)
+        {
+
         }
         
     }
