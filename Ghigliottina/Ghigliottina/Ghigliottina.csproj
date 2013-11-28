@@ -178,6 +178,8 @@
     </Content>
     <Content Include="Busta.png" />
     <Content Include="Facebook.png" />
+    <Content Include="Logo.jpg" />
+    <Content Include="Logo.png" />
     <Content Include="MiaImg.jpg" />
     <Content Include="Twitter.png" />
   </ItemGroup>

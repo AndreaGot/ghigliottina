@@ -30,6 +30,17 @@
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
 
         </Grid>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,10,0,0" Grid.Row="1" Height="587" Width="458">
+        	<Run Text="Ispirato al famoso gioco televisivo, ecco il gioco per Windows Phone!"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="Il funzionamento è molto semplice: per ogni coppia di parole, una è giusta, e l'altra è sbagliata.. Riuscirai ad arrivare in fondo e a dare la risposta giusta?"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="Buon Divertimento!"/>
+        </TextBlock>
     </Grid>
 
 </phone:PhoneApplicationPage>
