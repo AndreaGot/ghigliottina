@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio Express 2012 for Windows Phone
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghigliottina", "Ghigliottina\Ghigliottina.csproj", "{A31599C4-B8EF-40DC-BDC0-0FF99E5EAF7C}"
 EndProject
 Global
