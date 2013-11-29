@@ -15,6 +15,9 @@ namespace Ghigliottina
         public Sconfitta()
         {
             InitializeComponent();
+
+            txtRisposta.Text = PhoneApplicationService.Current.State["risp"].ToString();
+
         }
     }
 }
